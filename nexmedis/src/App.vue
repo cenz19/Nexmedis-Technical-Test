@@ -85,7 +85,7 @@ body {
 .heading-secondary,
 .heading-tertiary {
   font-weight: 700;
-  color: #333;
+  color: black;
   letter-spacing: -0.5px;
 }
 

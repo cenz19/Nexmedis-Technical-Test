@@ -97,9 +97,16 @@ import PopService from "../assets/popservice.jpg";
         </div>
       </div>
     </div>
+    <div class="pagination-container">
+      <i class="pi pi-circle-fill pagination"></i>
+      <i class="pi pi-circle pagination"></i>
+    </div>
   </section>
 </template>
 <style scoped>
+.grid {
+  margin-bottom: 2rem;
+}
 .home-service-img {
   height: 15rem;
   width: 100%;
