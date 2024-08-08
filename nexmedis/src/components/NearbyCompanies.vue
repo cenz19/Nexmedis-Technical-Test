@@ -109,4 +109,14 @@ import PopService from "../assets/popservice.jpg";
 .container {
   margin-bottom: 2rem;
 }
+@media (max-width: 65em) {
+  .grid {
+    display: grid;
+    row-gap: 1rem;
+    column-gap: 1rem;
+  }
+  .btn {
+    font-size: 1.2rem;
+  }
+}
 </style>

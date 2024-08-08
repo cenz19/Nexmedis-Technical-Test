@@ -21,14 +21,17 @@
     </div>
     <div class="button-nav">
       <ul class="button-nav-list">
-        <li><a class="btn btn--full" href="#">Sign In</a></li>
-        <li><a class="btn btn--full" href="#">Sign Up</a></li>
+        <li><a class="btn btn--full btn-text" href="#">Sign In</a></li>
+        <li><a class="btn btn--full btn-text" href="#">Sign Up</a></li>
         <li>
-          <a class="btn btn--full aa" href="#"
+          <a class="btn btn--full btn-text" href="#"
             ><strong>Become a Seller</strong></a
           >
         </li>
       </ul>
+    </div>
+    <div class="hamburger">
+      <i class="pi pi-bars"></i>
     </div>
   </header>
 </template>
@@ -68,5 +71,33 @@
 .service-list {
   font-size: 1.5rem;
   color: black;
+}
+.hamburger {
+  display: none;
+}
+
+/* Bellow 1120 px */
+@media (max-width: 70em) {
+  .service-list {
+    font-size: 1.3rem;
+    color: black;
+  }
+
+  .btn,
+  .btn:link,
+  .btn:visited {
+    font-size: 1rem;
+    /* font-size: 1.5rem; */
+  }
+}
+
+@media (max-width: 52.5em) {
+  .button-nav-list {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+    font-size: 2.5rem;
+  }
 }
 </style>

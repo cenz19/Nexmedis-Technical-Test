@@ -56,4 +56,9 @@
 .feature-text {
   font-size: 1.4rem;
 }
+@media (max-width: 52.5em) {
+  .grid--4cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
 </style>

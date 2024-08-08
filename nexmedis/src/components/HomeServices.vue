@@ -145,4 +145,10 @@ import PopService from "../assets/popservice.jpg";
   padding: 0.5rem 1rem;
   background-color: #aeacac;
 }
+
+@media (max-width: 65em) {
+  .grid--4cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
 </style>
